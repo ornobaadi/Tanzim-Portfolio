@@ -10,7 +10,7 @@ const services = [
     },
     {
         title: 'Social Media Marketing',
-        description: 'Boost engagement and sales through targeted Facebook, Instagram, and TikTok campaigns.',
+        description: 'Boost engagement through Facebook, Instagram, and TikTok campaigns.',
         icon: 'https://i.ibb.co.com/bQ5JCCt/3dicons-megaphone-dynamic-premium.png',
         link: '',
     },
@@ -33,7 +33,7 @@ const Services = () => {
         <section className="bg-base-100 py-12" id="services">
             <div className="container mx-auto text-center mb-12">
                 <h4 className="btn pointer-events-none text-orange-500 uppercase text-sm font-bold mb-2">Services</h4>
-                <h2 className="text-5xl font-bold text-gray-800">My Quality Services</h2>
+                <h2 className="text-3xl lg:text-5xl font-bold text-gray-800">My Quality Services</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 container mx-auto px-4">
                 {services.map((service, index) => (

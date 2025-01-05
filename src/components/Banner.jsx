@@ -12,7 +12,7 @@ const Banner = () => {
                         className="" />
                 </div>
                 <div>
-                    <h1 className="text-5xl font-bold flex items-center">Hey! 
+                    <h1 className=" text-3xl lg:text-5xl font-bold flex items-center">Hey! 
                     <Lottie className="w-12" animationData={waving} loop={true} />
                         I’m Tanzim</h1>
                     <p className="py-6 ">

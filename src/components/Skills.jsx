@@ -2,36 +2,44 @@
 const Skills = () => {
     const skills = [
         {
-            name: "Figma",
-            percentage: 80,
-            icon: "/Figma-logo-vector-01.svg",
+            category: "Dropshipping Expertise",
+            items: [
+                "Product Research & Trend Analysis",
+                "Supplier Sourcing (AliExpress, Alibaba, etc.)",
+                "Store Setup & Optimization (Shopify, WooCommerce)",
+                "Order Fulfillment & Inventory Management",
+            ],
+            icon: "https://i.ibb.co.com/jTQWVXd/3dicons-gift-box-dynamic-premium.png",
         },
         {
-            name: "Tailwind CSS",
-            percentage: 90,
-            icon: "/Tailwindcss-icon-vector-01.svg",
+            category: "Digital Marketing",
+            items: [
+                "Social Media Advertising (Facebook, Instagram, TikTok)",
+                "Google Ads & PPC Campaigns",
+                "Email Marketing Automation",
+                "Conversion Rate Optimization",
+            ],
+            icon: "https://i.ibb.co.com/bQ5JCCt/3dicons-megaphone-dynamic-premium.png",
         },
         {
-            name: "React",
-            percentage: 90,
-            icon: "/React-logo-vector-01.svg",
+            category: "Content Creation",
+            items: [
+                "Video Ad Production & Editing",
+                "Ad Copywriting",
+                "Thumbnail Design & A/B Testing",
+            ],
+            icon: "https://i.ibb.co.com/pLV3cgS/3dicons-video-cam-dynamic-premium.png",
         },
         {
-            name: "MongoDB",
-            percentage: 70,
-            icon: "/mongodb-icon-1-1.svg",
+            category: "Technical Skills",
+            items: [
+                "Shopify Development",
+                "Data Analysis with Google Analytics",
+                "SEO Basics for E-commerce",
+                "Tools: Canva, Adobe Premiere Pro, Meta Ads Manager",
+            ],
+            icon: "https://i.ibb.co.com/r3K50qV/3dicons-computer-dynamic-premium.png",
         },
-        {
-            name: "Firebase",
-            percentage: 80,
-            icon: "/Firebase-logo-vector-02.svg",
-        },
-        {
-            name: "NextJS",
-            percentage: 60,
-            icon: "/Nextjs-icon-vector-01.svg",
-        },
-        
     ];
 
     return (
@@ -40,46 +48,43 @@ const Skills = () => {
                 <h4 className="btn pointer-events-none text-orange-500 uppercase text-sm font-bold mb-2">
                     Top Skills
                 </h4>
-                <h2 className="text-5xl font-bold text-gray-800">See my expertise</h2>
+                <h2 className="text-3xl lg:text-5xl font-bold text-gray-800">
+                    See my expertise
+                </h2>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-8 container mx-auto px-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 container mx-auto px-4">
                 {skills.map((skill, index) => (
                     <div
                         key={index}
-                        className="relative bg-white rounded-full shadow-lg p-6 text-center flex flex-col items-center justify-around transition-all hover:shadow-xl"
-                        style={{
-                            height: "400px",
-                            width: "180px",
-                            border: "1px solid #f2f2f2",
-                        }}
+                        className="card shadow-xl bg-white hover:scale-105 transition-all"
                     >
-                        <div
-                            className="icon bg-gray-100 rounded-full flex items-center justify-center mb-4"
-                            style={{
-                                width: "80px",
-                                height: "80px",
-                                boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
-                            }}
-                        >
-                            <img
-                                src={skill.icon}
-                                alt={skill.name}
-                                className="h-12 w-12"
-                                decoding="async"
-                            />
-                        </div>
-                        <div>
-                            <div>
-                                <span
-                                    className="timer text-3xl font-bold text-gray-800"
-                                    data-to={skill.percentage}
-                                >
-                                    {skill.percentage}
-                                </span>
-                                <span className="operator text-xl text-gray-500">%</span>
+                        <div className="card-body text-center">
+                            <div className="flex justify-center mb-4">
+                                <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center shadow-md">
+                                    <img
+                                        src={skill.icon}
+                                        alt={skill.category}
+                                        className="h-10 w-10 object-contain"
+                                        decoding="async"
+                                    />
+                                </div>
                             </div>
-                            <span className="medium text-gray-700 font-medium mt-2">{skill.name}</span>
+                            <h3 className="text-xl font-bold text-gray-800 mb-4">
+                                {skill.category}
+                            </h3>
+                            <ul className="mt-4 text-gray-600 text-sm space-y-2 text-left">
+                                {skill.items.map((item, itemIndex) => (
+                                    <li
+                                        key={itemIndex}
+                                        className="flex items-baseline gap-2 leading-relaxed"
+                                    >
+                                        <span className="w-1 h-1 bg-orange-500 rounded-full flex-shrink-0 mt-1"></span>
+                                        <span className="break-words">{item}</span>
+                                    </li>
+                                ))}
+                            </ul>
                         </div>
+
                     </div>
                 ))}
             </div>
