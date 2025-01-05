@@ -11,13 +11,13 @@ const services = [
     {
         title: 'Social Media Marketing',
         description: 'Boost engagement through Facebook, Instagram, and TikTok campaigns.',
-        icon: 'https://i.ibb.co.com/bQ5JCCt/3dicons-megaphone-dynamic-premium.png',
+        icon: 'https://i.ibb.co.com/QYVzQwJ/3dicons-hash-dynamic-premium.png',
         link: '',
     },
     {
         title: 'Video Ad Creation',
         description: 'Eye-catching, high-converting video ads tailored for TikTok, Reels, and Stories.',
-        icon: 'https://i.ibb.co.com/pLV3cgS/3dicons-video-cam-dynamic-premium.png',
+        icon: 'https://i.ibb.co.com/k06HZQF/3dicons-play-dynamic-premium.png',
         link: '',
     },
     {
@@ -32,25 +32,24 @@ const Services = () => {
     return (
         <section className="bg-base-100 py-12" id="services">
             <div className="container mx-auto text-center mb-12">
-                <h4 className="btn pointer-events-none text-orange-500 uppercase text-sm font-bold mb-2">Services</h4>
-                <h2 className="text-3xl lg:text-5xl font-bold text-gray-800">My Quality Services</h2>
+                <h4 className="btn pointer-events-none text-orange-500 uppercase text-sm font-bold my-5">Services</h4>
+                <h2 className="text-3xl lg:text-5xl font-bold text-base-content">My Quality Services</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 container mx-auto px-4">
                 {services.map((service, index) => (
                     <div
                         key={index}
-                        className={`p-10 bg-white shadow-md rounded-lg hover:shadow-lg transition hover:border border-amber-700`}
+                        className="p-10 bg-base-200 shadow-md rounded-lg transition-all duration-300 ease-in-out transform hover:shadow-lg hover:scale-105 hover:border border-amber-700"
                     >
                         <div className="mb-4">
-                            <img src={service.icon} alt={service.title} className="h-16 w-16" />
+                            <img src={service.icon} alt={service.title} className="h-24 w-24" />
                         </div>
-                        <h4 className="text-xl font-semibold text-gray-700 mb-2">{service.title}</h4>
-                        <p className="text-gray-500 text-sm mb-4">{service.description}</p>
-                        <Link
-                            to={service.link}
-                            className="flex items-center text-orange-500 font-medium"
-                        >
-                            <button className='btn hover:text-white hover:bg-orange-600'>Read More <FaArrowRight></FaArrowRight></button>
+                        <h4 className="text-xl font-semibold text-base-content mb-2">{service.title}</h4>
+                        <p className="text-base-content text-opacity-60 text-sm mb-4">{service.description}</p>
+                        <Link to={service.link} className="flex items-center text-orange-500 font-medium">
+                            <button className="btn hover:text-white hover:bg-orange-600">
+                                Read More <FaArrowRight />
+                            </button>
                         </Link>
                     </div>
                 ))}
