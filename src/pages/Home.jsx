@@ -1,12 +1,14 @@
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Services from "../components/Services";
 
 const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
             <Banner></Banner>
+            <Services></Services>
             <Footer></Footer>
         </div>
     );
