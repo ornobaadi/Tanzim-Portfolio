@@ -4,32 +4,32 @@ const Skills = () => {
         {
             name: "Figma",
             percentage: 80,
-            icon: "/public/Figma-logo-vector-01.svg",
+            icon: "/Figma-logo-vector-01.svg",
         },
         {
             name: "Tailwind CSS",
             percentage: 90,
-            icon: "/public/Tailwindcss-icon-vector-01.svg",
+            icon: "/Tailwindcss-icon-vector-01.svg",
         },
         {
             name: "React",
             percentage: 90,
-            icon: "/public/React-logo-vector-01.svg",
+            icon: "/React-logo-vector-01.svg",
         },
         {
             name: "MongoDB",
             percentage: 70,
-            icon: "/public/mongodb-icon-1-1.svg",
+            icon: "/mongodb-icon-1-1.svg",
         },
         {
             name: "Firebase",
             percentage: 80,
-            icon: "/public/Firebase-logo-vector-02.svg",
+            icon: "/Firebase-logo-vector-02.svg",
         },
         {
             name: "NextJS",
             percentage: 60,
-            icon: "/public/Nextjs-icon-vector-01.svg",
+            icon: "/Nextjs-icon-vector-01.svg",
         },
         
     ];
@@ -42,7 +42,7 @@ const Skills = () => {
                 </h4>
                 <h2 className="text-5xl font-bold text-gray-800">See my expertise</h2>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-8 container mx-auto px-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-8 container mx-auto px-4">
                 {skills.map((skill, index) => (
                     <div
                         key={index}

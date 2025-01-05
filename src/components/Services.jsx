@@ -3,27 +3,27 @@ import { Link } from 'react-router-dom';
 
 const services = [
     {
-        title: 'Branding Design',
-        description: 'Continue indulged speaking the was horrible for domestic position. Seeing get rather.',
+        title: 'Dropshipping Strategy',
+        description: 'Tailored strategies to boost your store’s sales and performance.',
         icon: 'https://i.ibb.co.com/4KyL9WH/3dicons-rocket-dynamic-premium.png',
         link: '',
     },
     {
-        title: 'App Development',
-        description: 'Continue indulged speaking the was horrible for domestic position. Seeing get rather.',
-        icon: 'https://i.ibb.co.com/r3K50qV/3dicons-computer-dynamic-premium.png',
+        title: 'Social Media Marketing',
+        description: 'Boost engagement and sales through targeted Facebook, Instagram, and TikTok campaigns.',
+        icon: 'https://i.ibb.co.com/bQ5JCCt/3dicons-megaphone-dynamic-premium.png',
         link: '',
     },
     {
-        title: 'UI/UX Design',
-        description: 'Continue indulged speaking the was horrible for domestic position. Seeing get rather.',
-        icon: 'https://i.ibb.co.com/DMDtQ8g/3dicons-figma-dynamic-premium.png',
+        title: 'Video Ad Creation',
+        description: 'Eye-catching, high-converting video ads tailored for TikTok, Reels, and Stories.',
+        icon: 'https://i.ibb.co.com/pLV3cgS/3dicons-video-cam-dynamic-premium.png',
         link: '',
     },
     {
-        title: 'Web Design',
-        description: 'Continue indulged speaking the was horrible for domestic position. Seeing get rather.',
-        icon: 'https://i.ibb.co.com/GVzVx3G/3dicons-color-palette-dynamic-premium.png',
+        title: 'Store Optimization',
+        description: 'Streamline your dropshipping store for maximum efficiency and sales potential.',
+        icon: 'https://i.ibb.co.com/7bvt97w/3dicons-chart-dynamic-premium.png',
         link: '',
     },
 ];

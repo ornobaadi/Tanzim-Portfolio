@@ -16,7 +16,7 @@ const Banner = () => {
                     <Lottie className="w-12" animationData={waving} loop={true} />
                         I’m Tanzim</h1>
                     <p className="py-6 ">
-                        Hi, I’m Habib Hasan Tanzim, a web designer and developer specializing in the MERN stack. With a strong foundation in modern web technologies and recent expertise in Next.js and TypeScript, I’m passionate about creating engaging, user-friendly digital experiences.
+                    I’m a dropshipping expert with a proven track record of creating high-converting product campaigns and social media marketing strategies. I specialize in helping businesses grow through engaging, viral ad content and precision targeting.
                     </p>
                     <button className="btn btn-outline btn-neutral">Hire me now <FaArrowRight />
                     </button>
