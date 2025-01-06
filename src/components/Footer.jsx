@@ -8,7 +8,7 @@ const Footer = () => {
                     <p className="font-bold">
                         Habib Hasan Tanzim
                         <br />
-                        Web Designer & Web Developer
+                        Professional Dropshipping Expert
                     </p>
                 </aside>
                 <nav>
@@ -30,7 +30,7 @@ const Footer = () => {
                             href="https://github.com/ornobaadi"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-slate-900 hover:underline hover:text-orange-500 hover:font-semibold"
+                            className="bg-base-300 text-base-content hover:underline hover:text-orange-500 hover:font-semibold"
                         >
                             Ornob Aadi
                         </a>

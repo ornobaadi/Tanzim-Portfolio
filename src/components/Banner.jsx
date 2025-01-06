@@ -8,8 +8,8 @@ const Banner = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div>
           <img
-            src="https://i.ibb.co.com/PWxhBsP/HD-wallpaper-the-batman-robert-pattinson-Photoroom.png"
-            className="rounded-lg shadow-lg"
+            src="https://i.ibb.co.com/B4G0VY9/Untitled-design-2.png"
+            className="rounded-lg "
           />
         </div>
         <div className="text-base-content">
