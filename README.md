@@ -8,7 +8,7 @@ To set up this project on your local computer, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-repo/tanzim-portfolio.git
+   git clone https://github.com/ornobaadi/Tanzim-Portfolio.git
    ```
 
 2. **Navigate to the Project Directory**
