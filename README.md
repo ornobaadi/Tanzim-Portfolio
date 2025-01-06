@@ -1,43 +1,34 @@
-# Habib Hasan Tanzim - Dropshipping & Digital Marketing Expert
+# Tanzim Portfolio
 
-Welcome to my portfolio! I specialize in dropshipping, social media marketing, and creating high-converting ad campaigns that drive sales and boost engagement.
+Explore the portfolio here: [Tanzim Portfolio](https://tanzim-portfolio.surge.sh/)
 
-## **About Me**
-Hi, I’m Habib Hasan Tanzim, a seasoned dropshipping expert with a passion for helping businesses scale effortlessly. With extensive experience in crafting viral campaigns and optimizing online stores, I’m here to turn your ideas into success stories.
+## **Installation Instructions**
 
-## **Skills**
+To set up this project on your local computer, follow these steps:
 
-### Dropshipping Expertise:
-- Product Research & Trend Analysis
-- Supplier Sourcing (AliExpress, Alibaba, etc.)
-- Store Setup & Optimization (Shopify, WooCommerce)
-- Order Fulfillment & Inventory Management
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-repo/tanzim-portfolio.git
+   ```
 
-### Digital Marketing:
-- Social Media Advertising (Facebook, Instagram, TikTok)
-- Google Ads & PPC Campaigns
-- Email Marketing Automation
-- Conversion Rate Optimization
+2. **Navigate to the Project Directory**
+   ```bash
+   cd tanzim-portfolio
+   ```
 
-### Content Creation:
-- Video Ad Production & Editing
-- Ad Copywriting
-- Thumbnail Design & A/B Testing
+3. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-### Technical Skills:
-- Shopify Development
-- Data Analysis with Google Analytics
-- SEO Basics for E-commerce
-- Tools: Canva, Adobe Premiere Pro, Meta Ads Manager
+4. **Run the Development Server**
+   ```bash
+   npm run dev
+   ```
 
-## **Live Site**
-Explore my portfolio here: [Tanzim Portfolio](https://tanzim-portfolio.surge.sh/)
+5. **Open in Browser**
+   Visit `http://localhost:5173` to view the portfolio locally.
 
-## **Why Choose Me?**
-- **Stress-Free Dropshipping:** Share your product link, and I’ll handle everything from research to execution.
-- **Proven Marketing Results:** Viral, high-converting campaigns tailored for your audience.
-- **Effortless Communication:** Fluent in German and English, ensuring a smooth collaboration process.
-- **Satisfaction Guaranteed:** 100% money-back guarantee if you’re not satisfied!
+---
+For any issues or questions, feel free to reach out!
 
-## **Contact**
-Feel free to reach out for collaborations, consultations, or inquiries. Let’s build something great together!
